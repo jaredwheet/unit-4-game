@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystals Collector</title>
+    <meta charset="UTF=8" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <h1 id="title">Crystals Collector!</h1>
+    </div>
+
+    <div id="Instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        <br />
+        <p>
+            There are four crystals below. By clicking on a crystal you will add a specific amount
+            of points to your total score.
+        </p>
+        <br />
+        <p>
+            You win the game by matching your total score to random number, you lose the game if your total score
+            goes above the random number.
+        </p> 
+        <br />   
+        <p>The value of each crystal is hidden until you click on it.</p>
+        <br />
+        <p>Each time when the game starts, the game will change the value of each cystal.</p>
+        <br />    
+    </div>
+
+    <div id="Random-Number-Wins-Losses">
+        <h1 id="number">#</h1>
+        <div id="wins-losses">
+            <p id="wins">Wins: 0</p>
+            <p id="losses">Losses: 0</p>
+        </div>
+    </div>
+
+    <div id="crystals">
+        <img id="red" src="assets/images/red.jpg" alt="red gem">
+        <img id = "blue" src="assets/images/blue.jpg" alt="blue gem">
+        <img id = "yellow" src="assets/images/yellow.png" alt="yellow gem">
+        <img id = "black" src="assets/images/black.png" alt="black gem">
+        
+
+    </div>
+
+    <div id="total-score-text">
+        <p>Your total score is: </p>        
+    </div>
+
+    <div id="total-score">
+        <p id="total-score-number"></p>
+    </div>
+
+    
+
+
+
+
+
+<script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
